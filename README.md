@@ -39,7 +39,7 @@ This project presents an automated memory forensics pipeline that integrates Waz
      Enable-PSRemoting -Force
      Set-Item WSMan:\localhost\Client\TrustedHosts -Value "*" -Force
      ```
-   - Install WinPMEM on the Windows Agent (place `winpmem_mini_x64_rc2.sys` in `C:\Tools`).
+   - Install WinPMEM on the Windows Agent (place `winpmem.exe` in `C:\Tools`).
 
 2. **Wazuh Integration**:
    - Add custom rules to `local_rules.xml` (see [Project PDF](COMPUTER_FORENSIC_AND_INCIDENT_RESPONSE_Okore_Joel_Chidike.pdf) for examples).
