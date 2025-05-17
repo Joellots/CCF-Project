@@ -3,7 +3,7 @@
 ## Project Overview
 This project presents an automated memory forensics pipeline that integrates Wazuh SIEM with memory acquisition tools (WinPMEM) and analysis utilities (Volatility3) to detect and respond to malware infections in real time. The system leverages machine learning (XGBoost) to classify malicious activity based on memory artifacts, enabling automated containment and alerting.
 
-PIPELINE DIAGRAM: [PIPELINE](https://www.mermaidchart.com/app/projects/48916c73-5af4-45e8-9a88-0c6445f40dcc/diagrams/6dd79821-8c80-44bc-824d-85b9d4a0b0e4/version/v0.1/edit](https://www.mermaidchart.com/app/projects/48916c73-5af4-45e8-9a88-0c6445f40dcc/diagrams/6dd79821-8c80-44bc-824d-85b9d4a0b0e4/version/v0.1/edit)](https://www.mermaidchart.com/raw/6dd79821-8c80-44bc-824d-85b9d4a0b0e4?theme=light&version=v0.1&format=svg).
+PIPELINE DIAGRAM: [PIPELINE](https://www.mermaidchart.com/raw/6dd79821-8c80-44bc-824d-85b9d4a0b0e4?theme=light&version=v0.1&format=svg).
 
 **Key Features:**
 - Real-time memory dumping triggered by Wazuh alerts (e.g., suspicious PowerShell activity).
