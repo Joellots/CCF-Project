@@ -71,11 +71,11 @@ This project presents an automated memory forensics pipeline that integrates Waz
 
 ## Results
 - **Detection Accuracy**: 99.8% (tested on WannaCry ransomware).
-- **Pipeline Latency**: <3 minutes from detection to containment.
+- **Pipeline Latency**: <3 minutes from detection to containment depending on available compute.
 - Sample logs available in `Images/`.
 
 ## Future Work
-- Integrate ELK Stack for dashboards.
+- Integrate ELK Stack dashboards for incident timeline visualization.
 - Expand Volatility plugins (DLLs, mutexes).
 - Test with advanced fileless malware.
 
