@@ -87,5 +87,5 @@ PIPELINE DIAGRAM: [PIPELINE](https://www.mermaidchart.com/raw/6dd79821-8c80-44bc
 - [Wazuh Active Response Guide](https://documentation.wazuh.com/current/user-manual/capabilities/active-response/)
 
 ---
-**Demo Video**: [Yandex Disk](https://disk.yandex.com/client/disk/CCF%20Project%20Demo)  
+**Demo Video**: [Yandex Disk](https://disk.yandex.com/d/2qZhsdwWl1Lkyw)
 **Author**: Okore Joel Chidike | [GitHub](https://github.com/Joellots)
