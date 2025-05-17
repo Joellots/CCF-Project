@@ -42,7 +42,7 @@ This project presents an automated memory forensics pipeline that integrates Waz
    - Install WinPMEM on the Windows Agent (place `winpmem.exe` in `C:\Tools`).
 
 2. **Wazuh Integration**:
-   - Add custom rules to `local_rules.xml` (see [Project PDF](COMPUTER_FORENSIC_AND_INCIDENT_RESPONSE_Okore_Joel_Chidike.pdf) for examples).
+   - Add custom rules to `local_rules.xml` [Project Report](https://certain-geology-23b.notion.site/COMPUTER-FORENSIC-AND-INCIDENT-RESPONSE-1f543dbba7f98058a6c2cc1951f30f35).
    - Configure active response in `ossec.conf` to trigger scripts:
      ```xml
      <command>
