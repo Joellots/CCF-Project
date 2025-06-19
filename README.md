@@ -1,4 +1,4 @@
-# CCF-Project: Automated Memory Forensics Pipeline for Real-Time Malware Response
+# CCF-Project: Automated Memory Forensics Pipeline for Real-Time Malware Detection and Response
 
 ## Project Overview
 This project presents an automated memory forensics pipeline that integrates Wazuh SIEM with memory acquisition tools (WinPMEM) and analysis utilities (Volatility3) to detect and respond to malware infections in real time. The system leverages machine learning (XGBoost) to classify malicious activity based on memory artifacts, enabling automated containment and alerting.
