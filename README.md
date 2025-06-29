@@ -55,7 +55,7 @@ PIPELINE DIAGRAM: [PIPELINE](https://www.mermaidchart.com/raw/6dd79821-8c80-44bc
 
 3. **ML Model Deployment**:
    - Place `xgb_model.pkl` and `predict.py` in the Wazuh Manager's pipeline directory.
-   - Ensure the shared folder (`/home/okore/MemoryDumps`) is accessible to both VMs.
+   - Ensure the shared folder (`~/MemoryDumps`) is accessible to both VMs.
 
 ## Usage
 1. **Trigger Memory Dump**:
