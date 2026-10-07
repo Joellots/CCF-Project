@@ -1,0 +1,38 @@
+# Python environment and caches -- never commit, regenerable from requirements
+.venv/
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Agent/tool working directories, not project source
+.codex/
+.agents/
+
+# Cloud credentials and raw memory images -- must never be pushed
+*.pem
+*.raw
+lab/out/
+
+# Raw/orphan collection run with the contamination-episode rows mixed in.
+# pipeline/paired_dataset_valid.csv and pipeline/paired_dataset_contaminated.csv
+# are the cleaned, split files the paper actually cites and ARE tracked.
+**/paired_dataset.csv
+
+# Large public dataset (19MB) -- redistribute via the original CIC source
+# (linked in README), not duplicated in this repo.
+Obfuscated-MalMem2022.csv
+
+# Confidential peer-review correspondence: contains reviewer comments and a
+# co-author's personal contact details. Not for a public repository.
+paper_review.pdf
+
+# Personal document unrelated to this project's scope.
+Academic_CV-OKORE.typ
+
+# Build artefacts derived from paper/main.tex, which is the source of truth.
+paper/submission-source.zip
+SIBIRCON.pdf
+arch_diag.png
