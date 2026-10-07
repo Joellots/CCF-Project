@@ -16,6 +16,7 @@ Thumbs.db
 *.raw
 lab/
 analysis/
+pipeline/
 
 # Raw/orphan collection run with the contamination-episode rows mixed in.
 # pipeline/paired_dataset_valid.csv and pipeline/paired_dataset_contaminated.csv
