@@ -14,7 +14,8 @@ Thumbs.db
 # Cloud credentials and raw memory images -- must never be pushed
 *.pem
 *.raw
-lab/out/
+lab/
+analysis/
 
 # Raw/orphan collection run with the contamination-episode rows mixed in.
 # pipeline/paired_dataset_valid.csv and pipeline/paired_dataset_contaminated.csv
@@ -33,6 +34,5 @@ paper_review.pdf
 Academic_CV-OKORE.typ
 
 # Build artefacts derived from paper/main.tex, which is the source of truth.
-paper/submission-source.zip
+paper/
 SIBIRCON.pdf
-arch_diag.png
